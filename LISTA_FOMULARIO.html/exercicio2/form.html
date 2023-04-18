@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Exemplo de Formulário</title>
+</head>
+<body>
+	<form method="get" action="form.php">
+		<label for="texto">Caixa de texto de uma linha:</label>
+		<input type="text" name="texto" id="texto"><br><br>
+		
+		<label for="areaTexto">Caixa de texto de rolagem:</label>
+		<textarea name="areaTexto" id="areaTexto"></textarea><br><br>
+		
+		<label for="checkbox">Caixa de seleção:</label>
+		<input type="checkbox" name="checkbox" id="checkbox" value="valor1"><br><br>
+		
+		<label for="radio1">Botão de opção:</label>
+		<input type="radio" name="radio" id="radio1" value="opcao1">
+		<label for="radio2">Outra opção:</label>
+		<input type="radio" name="radio" id="radio2" value="opcao2"><br><br>
+		
+		<label for="select">Menu suspenso:</label>
+		<select name="select" id="select">
+			<option value="opcao1">Opção 1</option>
+			<option value="opcao2">Opção 2</option>
+			<option value="opcao3">Opção 3</option>
+		</select><br><br>
+		
+		<input type="submit" name="submit" value="Enviar">
+	</form>
+</body>
+</html>
