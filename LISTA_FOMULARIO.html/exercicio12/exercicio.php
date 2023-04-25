@@ -8,7 +8,7 @@
 
     for($i = 1; $i <= $num_imagens; $i++) {
       echo "<td>";
-      echo "<img src='http://localhost/$pasta/$i.jpg' width='150' height='100'>";
+      echo "<img src='http://localhost".$pasta."\\".$i.".jpg' width='150' height='100'>";
       echo "</td>";
     }
 
