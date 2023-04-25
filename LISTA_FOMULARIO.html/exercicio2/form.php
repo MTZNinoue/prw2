@@ -6,7 +6,7 @@
     <body>
         <h1>Processamento de Dados do Formulario</h1>
     <?php
-    if <$_SERVER["REQUEST_METHOD"] == "GET") {
+    
         $nome = $_GET["nome"];
         $mensagem = $_GET["mensagem"]
         $opcao1 = isset($_GET["checkbox"]) ? "opção 1 selecionada" : "Opção 1 não selecionada"
@@ -18,7 +18,7 @@
         echo "<p>$opcao1</p>"
         echo "<p>$opcao2</p>"
         echo "<p>seleção: $selecao"
-    }
+    
     ?>
     </body>
 </html>
